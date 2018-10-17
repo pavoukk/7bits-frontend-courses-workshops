@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.header, .main {
+    box-sizing: border-box;
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    border-bottom: 1px solid #cecdce;
+    padding-bottom: 65px;
+    padding-top: 120px;
+
+    font-family: Arial;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    background-color: #e8c734;
+}
+
+.header__title {
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    color: #434244;
+}
+
+.header__subtitle {
+    font-size: 27px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+    color: #434244;
+}
+
+.contacts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts__item {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 17px;
+    color: #9c9da0;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.contacts__link {
+    color: #9c9da0;
+    text-decoration: none;
+}
+
+.header__contacts {
+    width: 420px;
+    margin: 40px 0 0 0;
+}
+
+.main {
+    margin-bottom: 500px;
+    margin-top: 40px;
+    font-size: 0;
+}
+
+.main__column_left, .main__column_right {
+    vertical-align: top;
+}
+
+.main__column_left {
+    display: inline-block;
+    width: 425px;
+}
+
+.main__column_right {
+    display: inline-block;
+    margin-left: 60px;
+    width: 765px;
+}
+
+.main__avatar {
+    margin-bottom: 35px;
+}
+
+.personal-info__header {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #e8c734;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    color: #434244;
+    margin: 0;
+}
+
+.personal-info__main {
+    margin-top: 35px;
+}
+
+.personal-info__text {
+    font-family: Arial;
+    font-size: 18px;
+    color: #434244;
+}
+
+.personal-info__text_strong {
+    font-weight: bold;
+}
