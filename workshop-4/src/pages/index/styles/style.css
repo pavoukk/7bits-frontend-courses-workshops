@@ -1,0 +1,26 @@
+.blog-post {
+    margin: 0 auto;
+    width: 1062px;
+}
+.blog-post__theme {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+    color: #b4ad9e;
+    font-weight: 400;
+}
+.blog-post__title {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.blog-post__text {
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.73;
+    text-align: left;
+    margin: 0;
+}

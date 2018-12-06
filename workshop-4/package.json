@@ -1,0 +1,26 @@
+{
+  "name": "7bits-frontend-courses-workshops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michailRemmele/7bits-frontend-courses-workshop-weeks-2-3.git"
+  },
+  "author": "Mikhail Remmele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michailRemmele/7bits-frontend-courses-workshop-weeks-2-3/issues"
+  },
+  "homepage": "https://github.com/michailRemmele/7bits-frontend-courses-workshop-weeks-2-3#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0"
+  }
+}

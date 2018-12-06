@@ -1,0 +1,28 @@
+.header {
+    width: 1062px;
+    margin: 70px auto 67px;
+}
+.header__logo {
+    display: inline-block;
+    background: url(./images/minimo.png) no-repeat;
+    width: 120px;
+    height: 24px;
+}
+.header__nav-menu {
+    float: right;
+}
+.nav-menu {
+    margin: 0;
+    list-style: none;
+}
+.nav-menu__item {
+    display: inline-block;
+}
+.nav-menu__link {
+    padding: 4px 0 5px 100px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #626262;
+    text-decoration: none;
+}

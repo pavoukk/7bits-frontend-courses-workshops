@@ -1,0 +1,22 @@
+.footer {
+    margin: 150px auto 0;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 33px 70px 30px 70px;
+    background-color: #f0f0f0;
+}
+.footer__info {
+    padding-left: 80px;
+    padding-top: 5px;
+    margin: 0 20px 18px 0;
+}
+.footer__info-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer__info-link {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
