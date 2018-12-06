@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+.header {
+    width: 1062px;
+    margin: 70px auto 67px;
+}
+.header__logo {
+    display: inline-block;
+    background: url(../images/minimo.png) no-repeat;
+    width: 120px;
+    height: 24px;
+}
+.header__nav-menu {
+    float: right;
+}
+.nav-menu {
+    margin: 0;
+    list-style: none;
+}
+.nav-menu__item {
+    display: inline-block;
+}
+.nav-menu__link {
+    padding: 4px 0 5px 100px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #626262;
+    text-decoration: none;
+}
+
+.blog-post {
+    margin: 0 auto;
+    width: 1062px;
+}
+.blog-post__theme {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+    color: #b4ad9e;
+    font-weight: 400;
+}
+.blog-post__title {
+    padding: 0;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+}
+.blog-post__text {
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.73;
+    text-align: left;
+    margin: 0;
+}
+
+.footer {
+    margin: 150px auto 0;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 33px 70px 30px 70px;
+    background-color: #f0f0f0;
+}
+.footer__info {
+    padding-left: 80px;
+    padding-top: 5px;
+    margin: 0 20px 18px 0;
+}
+.footer__info-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer__info-link {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
